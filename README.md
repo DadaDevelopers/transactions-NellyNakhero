@@ -10,3 +10,17 @@ Using the above transaction hex
 
 Here is the link to the transaction detail on mempool.space
 https://mempool.space/tx/04f487fe9754a925c2e96492afeab47e7c839d0582eef80b3ecc9ca3afa05842*
+
+# SUBMISSION
+
+- Added a new method in your BitcoinRpcService to call decoderawtransaction
+  ```shell
+    cd bitcoin-learning/src/main/java/com/bitcoin/learning/bitcoin_learning/bitcoinrpc/service/BitcoinRpcService.java
+  ```
+- Also added corresponding new endpoint in the BitcoinRpcController to expose it via HTTP
+  ```shell
+    bitcoin-learning/src/main/java/com/bitcoin/learning/bitcoin_learning/bitcoinrpc/controller/BitcoinRpcController.java
+  ```
+
+
+# Test Evidence
