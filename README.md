@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/rDdYqyM0)
 # assignment-3
 
 transaction hex:
@@ -9,3 +10,20 @@ Using the above transaction hex
 
 Here is the link to the transaction detail on mempool.space
 https://mempool.space/tx/04f487fe9754a925c2e96492afeab47e7c839d0582eef80b3ecc9ca3afa05842*
+
+# SUBMISSION
+
+- Added a new method in your BitcoinRpcService to call decoderawtransaction
+  ```shell
+    cd bitcoin-learning/src/main/java/com/bitcoin/learning/bitcoin_learning/bitcoinrpc/service/BitcoinRpcService.java
+  ```
+- Also added corresponding new endpoint in the BitcoinRpcController to expose it via HTTP
+  ```shell
+    bitcoin-learning/src/main/java/com/bitcoin/learning/bitcoin_learning/bitcoinrpc/controller/BitcoinRpcController.java
+  ```
+
+
+# Test Evidence
+
+<img width="1140" height="801" alt="Screenshot 2025-10-18 at 2 26 11 PM" src="https://github.com/user-attachments/assets/a767f225-9d61-4f6b-a029-ce322cdf49cd" />
+
